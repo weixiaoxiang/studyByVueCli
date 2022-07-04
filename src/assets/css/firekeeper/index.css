@@ -1,0 +1,83 @@
+    #firekeeper {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+    }
+
+    .header {
+        position: relative;
+        width: 100%;
+        height: 130px;
+        background: url('~@assets/images/firekeeper/nav.png') no-repeat 100% 100%;
+    }
+
+    .header div {
+        position: absolute;
+        width: 127px;
+        height: 51px;
+        background: url('~@assets/images/firekeeper/nav-item-bgc.png')no-repeat 100% 100%;
+    }
+
+    .header div:nth-child(3) {
+        width: 1000px;
+        height: 72px;
+        background: url('~@assets/images/firekeeper/nav-title.png')no-repeat 100% 100%;
+    }
+
+    #early {
+        top: 38px;
+        left: 128px;
+        text-align: center;
+        line-height: 51px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #08bdb9;
+    }
+
+    #disasters {
+        top: 38px;
+        left: 300px;
+        text-align: center;
+        line-height: 51px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #08bdb9;
+    }
+
+    #nav-title {
+        top: 28px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    #alarm {
+        top: 38px;
+        right: 300px;
+        text-align: center;
+        line-height: 51px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #08bdb9;
+    }
+
+    #analysis {
+        top: 38px;
+        right: 128px;
+        text-align: center;
+        line-height: 51px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #08bdb9;
+    }
+
+    #username {
+        top: 38px;
+        right: 15px;
+        width: auto;
+        background: none;
+        text-align: center;
+        line-height: 51px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #08bdb9;
+    }

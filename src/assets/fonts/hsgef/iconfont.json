@@ -1,0 +1,72 @@
+{
+  "id": "2601311",
+  "name": "学习",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15546333",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "992",
+      "name": "话费",
+      "font_class": "huafei",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "959136",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "17448866",
+      "name": "右箭头",
+      "font_class": "youjiantou1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "16271659",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "1664367",
+      "name": "上箭头",
+      "font_class": "shangjiantou",
+      "unicode": "e730",
+      "unicode_decimal": 59184
+    },
+    {
+      "icon_id": "1664368",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e731",
+      "unicode_decimal": 59185
+    },
+    {
+      "icon_id": "6832424",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e72d",
+      "unicode_decimal": 59181
+    },
+    {
+      "icon_id": "19475183",
+      "name": "chevron-down",
+      "font_class": "chevron-down",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    }
+  ]
+}
