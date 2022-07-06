@@ -57,7 +57,7 @@ module.exports = {
   // webpack的配置项
   configureWebpack: config => {
     // 开启 gzip 压缩
-    // 需要 npm i -D compression-webpack-plugin（可能会出现下载不下来，卸载后在重复下载）
+    // 需要 npm i  -D compression-webpack-plugin（可能会出现下载不下来，卸载后在重复下载）
     const plugins = []
     if (IS_PRODUCTION) {
       plugins.push(
