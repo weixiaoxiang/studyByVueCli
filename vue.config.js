@@ -45,27 +45,6 @@ module.exports = {
       .set('@views', resolve('src/views'))
       .set('@store', resolve('src/store'))
       .set('@utils', resolve('src/utils'))
-    // 压缩图片
-    // 需要 cnpm i -D image-webpack-loader（可能会出现下载不下来，卸载后在重复下载）
-    // config.module
-    //     .rule('images')
-    //     .test(/\.(png|jpe?g|gif|svg)(\?.*)?$/)
-    //     .use('image-webpack-loader')
-    //     .loader('image-webpack-loader')
-    //     .options({
-    //         bypassOnDebug: true
-    //     }).end()
-    // config.module
-    //     .rule("images")
-    //     .use("image-webpack-loader")
-    //     .loader("image-webpack-loader")
-    //     .options({
-    //         mozjpeg: { progressive: true, quality: 65 },
-    //         optipng: { enabled: false },
-    //         pngquant: { quality: [0.65, 0.9], speed: 4 },
-    //         gifsicle: { interlaced: false },
-    //         webp: { quality: 75 }
-    //     });
     // 打包分析, 打包之后自动生成一个名叫report.html文件(可忽视)
     if (IS_PRODUCTION) {
       config.plugin('webpack-report').use(BundleAnalyzerPlugin, [
@@ -109,7 +88,7 @@ module.exports = {
         CESIUM_BASE_URL: JSON.stringify('')
       })
     ]
-    config.plugins = [...config.plugins, ...plugins, ...obj]
+    config.plugins = [...config.plugins, ...plugins]
     config.module.unknownContextCritical = false
   },
   devServer: {
