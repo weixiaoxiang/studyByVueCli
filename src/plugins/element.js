@@ -30,7 +30,11 @@ import {
   RadioButton,
   RadioGroup,
   Table,
-  TableColumn
+  TableColumn,
+  Collapse,
+  CollapseItem,
+  Card,
+  ColorPicker
 } from 'element-ui'
 
 Vue.use(Button)
@@ -62,5 +66,9 @@ Vue.use(RadioButton)
 Vue.use(RadioGroup)
 Vue.use(Table)
 Vue.use(TableColumn)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(Card)
+Vue.use(ColorPicker)
 Vue.prototype.$message = Message
 Vue.prototype.$notify = Notification

@@ -48,10 +48,6 @@ const openlayersRouter = [
     component: () => import('@components/openlayers/FeatureMoveAnimation.vue')
   },
   {
-    path: '/olExt',
-    component: () => import('@components/openlayers/OlExt.vue')
-  },
-  {
     path: '/geoserver',
     component: () => import('@components/openlayers/Geoserver.vue')
   },
@@ -66,6 +62,10 @@ const openlayersRouter = [
   {
     path: '/WuhuTest',
     component: () => import('@components/openlayers/WuhuTest.vue')
+  },
+  {
+    path: '/olextpointstyleedit',
+    component: () => import('@components/openlayers/fontStyle/Index.vue')
   }
 ]
 

@@ -110,9 +110,9 @@ const openlayersList = {
     },
     {
       id: '1-11',
-      name: '使用ol-ext插件',
+      name: 'olext在线点符号编辑',
       isTarget: false,
-      path: '/olExt'
+      path: '/olextpointstyleedit'
     }
   ]
 }
