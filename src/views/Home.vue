@@ -29,7 +29,7 @@
               <el-submenu v-for="item in menuList" :key="item.id" :index="item.id">
                 <template slot="title">
                   <i :class="[iconObj[item.id], 'iconCustom']"></i>
-                  <!-- <span slot="title">{{item.name}}</span> -->
+                  <!-- <span slot="title">{{item.name}}</span>-->
                   <span slot="title" :title="item.name">{{ item.name }}</span>
                 </template>
                 <div v-for="item2 in item.children" :key="item2.id">
